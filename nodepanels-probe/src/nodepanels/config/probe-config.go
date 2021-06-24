@@ -2,10 +2,9 @@ package config
 
 const Version = "v1.0.1"
 
-//为了系统稳定进行脱敏处理
-var WsUrl = "xxxx"
-var AgentUrl = "xxxx"
-var ApiUrl = "xxxx"
+var WsUrl = "ws.nodepanels.com"
+var AgentUrl = "agent.nodepanels.com"
+var ApiUrl = "collect.nodepanels.com"
 
 type Config struct {
 	ServerId string  `json:"serverId"`
